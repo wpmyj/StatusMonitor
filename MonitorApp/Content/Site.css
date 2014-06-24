@@ -1,0 +1,192 @@
+﻿body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: blue;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.admin 
+{
+    padding-left:1400px;
+}
+
+.block 
+{
+    padding-left:605px;
+}
+
+.span_db 
+{
+    color:#ff9900;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.span_web 
+{
+    color: #FF9900;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+
+.tianjia_db
+{
+    color: #FF9900;
+    font-size: 23px;
+    left: 1107px;
+    position: absolute;
+    top: 25px;
+}
+
+.tianjia_web
+{
+      color: #FF9900;
+    display: inline-block;
+    font-size: 23px;
+    padding-left: 380px;
+}
+
+.serverip_db 
+{
+   color: #0000FF;
+    display: inline-block;
+    font-size: 20px;
+    width: 140px;
+    
+}
+
+.name_db 
+{
+     border: 1px none;
+    color: #0000FF;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 60px;
+    width: 66px;
+    
+    
+}
+
+.start_db 
+{
+      border: 2px solid;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    
+}
+
+.delete_db 
+{
+   border: 2px solid;
+    border-radius: 8px;
+    color: #0000FF;
+    font-size: 20px;
+    margin-left: 35px;
+    text-decoration: none;
+    
+}
+
+.url_web 
+{
+     color: #0000FF;
+    display: inline-block;
+    font-size: 20px;
+    width: 260px;
+    
+}
+
+.start_web 
+{
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 72px;
+    text-decoration: none;
+}
+
+.delete_web 
+{
+   border: 2px solid;
+    border-radius: 8px;
+    color: #0000FF;
+    font-size: 20px;
+    margin-left: 36px;
+    text-decoration: none;
+}
+
+.user 
+{
+    
+}

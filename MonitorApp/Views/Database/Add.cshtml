@@ -1,0 +1,46 @@
+﻿@model MonitorApp.Models.Database
+@{
+    ViewBag.Title = "Add";
+}
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm())
+{ 
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>添加数据库</legend>
+        <div>
+            @Html.LabelFor(model => model.ServerIp)
+        </div>
+        <div>
+            @Html.EditorFor(model => model.ServerIp)
+            @Html.ValidationMessageFor(model => model.ServerIp)
+        </div>
+        <div>
+            @Html.LabelFor(model=>model.DatabaseName)
+        </div>
+        <div>
+            @Html.EditorFor(model=>model.DatabaseName)
+            @Html.ValidationMessageFor(model => model.DatabaseName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.User)
+        </div>
+        <div>
+            @Html.EditorFor(model => model.User)
+            @Html.ValidationMessageFor(model => model.User)
+        </div>
+        <div>
+            @Html.LabelFor(model=>model.Password)
+        </div>
+        <div>
+            @Html.EditorFor(model=>model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+        <p>
+            <input type="submit" value="Add" />
+        </p>
+    </fieldset>
+}

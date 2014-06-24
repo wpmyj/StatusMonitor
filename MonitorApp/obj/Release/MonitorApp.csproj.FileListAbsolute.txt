@@ -1,0 +1,66 @@
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\MonitorApp.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\MonitorApp.pdb
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\EntityFramework.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\log4net.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Helpers.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Mvc.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Providers.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Razor.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.WebPages.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\EntityFramework.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Helpers.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Mvc.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.Razor.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.WebPages.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\obj\Release\MonitorApp.csprojResolveAssemblyReference.cache
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\obj\Release\MonitorApp.dll
+C:\Users\wuyao\Desktop\MonitorApp - 副本\MonitorApp\obj\Release\MonitorApp.pdb
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\MonitorApp.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\MonitorApp.pdb
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\EntityFramework.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\log4net.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Helpers.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Mvc.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Providers.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Razor.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.WebPages.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\EntityFramework.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Helpers.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Mvc.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.Razor.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.WebPages.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\obj\Release\MonitorApp.csprojResolveAssemblyReference.cache
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\obj\Release\MonitorApp.dll
+C:\Users\wuyao\Desktop\MonitorApp\MonitorApp\obj\Release\MonitorApp.pdb
+E:\MonitorApp\MonitorApp\bin\MonitorApp.dll
+E:\MonitorApp\MonitorApp\bin\MonitorApp.pdb
+E:\MonitorApp\MonitorApp\bin\EntityFramework.dll
+E:\MonitorApp\MonitorApp\bin\log4net.dll
+E:\MonitorApp\MonitorApp\bin\Microsoft.Web.Infrastructure.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.Helpers.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.Mvc.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.Providers.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.Razor.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.WebPages.Deployment.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.WebPages.dll
+E:\MonitorApp\MonitorApp\bin\System.Web.WebPages.Razor.dll
+E:\MonitorApp\MonitorApp\bin\EntityFramework.xml
+E:\MonitorApp\MonitorApp\bin\System.Web.Helpers.xml
+E:\MonitorApp\MonitorApp\bin\System.Web.Mvc.xml
+E:\MonitorApp\MonitorApp\bin\System.Web.Razor.xml
+E:\MonitorApp\MonitorApp\bin\System.Web.WebPages.xml
+E:\MonitorApp\MonitorApp\bin\System.Web.WebPages.Deployment.xml
+E:\MonitorApp\MonitorApp\bin\System.Web.WebPages.Razor.xml
+E:\MonitorApp\MonitorApp\obj\Release\MonitorApp.csprojResolveAssemblyReference.cache
+E:\MonitorApp\MonitorApp\obj\Release\MonitorApp.dll
+E:\MonitorApp\MonitorApp\obj\Release\MonitorApp.pdb

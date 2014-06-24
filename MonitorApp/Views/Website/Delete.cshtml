@@ -1,0 +1,22 @@
+﻿@model MonitorApp.Models.Website
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Are you sure you want to delete this?</h2>
+
+<fieldset>
+    <legend>删除网站</legend>
+    <div>Url:</div>
+    <div>
+        @Html.DisplayFor(model=>model.Url)
+    </div>
+</fieldset>
+@using (Html.BeginForm())
+{ 
+    <p>
+        <input type="submit" value="Delete"/>
+        <a href="/DbWeb/index">Back</a>
+    </p>
+}

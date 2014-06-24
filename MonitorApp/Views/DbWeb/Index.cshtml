@@ -1,0 +1,116 @@
+﻿@model MonitorApp.ViewModels.DbWebViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+@section script {
+    <script type="text/javascript">
+        $(function () {
+            $(".start_db").on('click', function () {
+                var $this = $(this);
+                var start = $this.attr("start");
+                var id = $this.attr("id");
+
+                if (start == "true") {
+
+                    $.get("/MonitorMainProgram/OpenDb/" + id, function (data) {
+                        //success: console.log(data);
+                        if (data == "true") {
+                            $this.html("停止监控").attr("start","false");
+                        }
+                        else if (data == "exception") {
+                            alert("开始监控出现异常！");
+                        }
+                    });
+                }
+                else {
+                    $.get("/MonitorMainProgram/CloseDb/" + id, function (data) {
+                        if (data == "true") {
+                            $this.html("开始监控").attr("start", "true");
+                        }
+                        else if (data == "exception") {
+                            alert("开始监控出现异常！");
+                        }
+                    });
+                }
+            });
+
+
+            $(".start_web").on('click', function () {
+                var $this = $(this);
+                var start = $this.attr("start");
+                var id = $this.attr("id");
+
+                if (start == "true") {
+
+                    $.get("/MonitorMainProgram/OpenWeb/"+ id, function (data) {
+                        if (data == "true") {
+                            $this.html("停止监控").attr("start", "false");
+                        }
+                        else if (data == "exception") {
+                            alert("开始监控出现异常！");
+                        }
+                    });
+                }
+                else {
+                    $.get("/MonitorMainProgram/CloseWeb/"+ id, function (data) {
+                        if (data == "true") {
+                            $this.html("开始监控").attr("start", "true");
+                        }
+                        else if (data == "exception") {
+                            alert("开始监控出现异常！");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
+
+<div class="admin">
+    <span class="user">@Session["admin"]!</span>
+    <span><a href="/Admin/AddAdmin">添加管理员</a></span>
+    <span><a href="/Password/ModifyPassword?str=@Session["admin"]">修改密码</a></span>
+    <span><a href="/Login">登出</a></span>
+</div>
+
+<div class="block">
+    
+    <div class="span_db">监控数据库:</div>
+    <a href="/Database/Add" class="tianjia_db">添加</a>
+
+    <ul>
+        
+        @for (int i = 0; i < Model.DatabaseServerIps.Count(); i++)
+        { 
+            <li>
+            <div>
+                <span class="serverip_db">@Model.DatabaseServerIps[i]</span>
+                <span class="name_db">@Model.DatabaseNames[i]</span>
+                <a href="javascript:void(0);" id="@Model.DatabaseId[i]"  start="true" class="start_db">开始监控</a>
+                <a href="/Database/Delete?id=@Model.DatabaseId[i]" class="delete_db">删除</a>
+                <br /><br />
+            </div>
+            </li>
+        }
+       
+    </ul>
+    
+    <span class="span_web">监控网站:</span>
+    <a href="/Website/Add" class="tianjia_web">添加</a>
+
+    <ul>
+        @for (int i = 0; i < Model.WebsiteUrls.Count(); i++)
+        { 
+            <li>
+            <div>
+                <span class="url_web">@Model.WebsiteUrls[i]</span>
+                <a href="javascript:void(0);" id="@Model.WebsiteId[i]"  start="true" class="start_web">开始监控</a>
+                <a href="/Website/Delete?id=@Model.WebsiteId[i]" class="delete_web">删除</a>
+                <br /><br />
+            </div>
+            </li>
+        }
+    </ul>
+    
+</div>
